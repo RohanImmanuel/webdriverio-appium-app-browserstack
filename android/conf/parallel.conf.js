@@ -20,7 +20,7 @@ exports.config = {
     name: 'parallel_appium_test',
     build: 'webdriver-browserstack',
     browserName: 'android',
-    app: process.env.BROWSERSTACK_APP_ID || 'bs://<hashed app-id>',
+    app: process.env.BROWSERSTACK_APP_ID || 'TestApp',
     'browserstack.debug': true
   },
 
