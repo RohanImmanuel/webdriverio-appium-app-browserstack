@@ -7,6 +7,13 @@ exports.config = {
     './tests/specs/single_test.js'
   ],
   exclude: [],
+  
+  reporters: ['browserstack'],
+  reporterOptions: {
+      browserstack: {
+          outputDir: './'
+      }
+  },
 
   maxInstances: 10,
   commonCapabilities: {
